@@ -1,2 +1,4 @@
 /logs
 *.sqlite3
+linkcounter.egg-info/
+linkcounter_project/__pycache__
