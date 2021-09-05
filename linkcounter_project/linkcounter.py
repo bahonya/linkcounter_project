@@ -40,6 +40,8 @@ class Linkcounter:
 
         python3 linkcounter.py --count 'article_name'
         Use this command to get number of links by given article name if it was already parsed
+
+        python3 linkcounter.py --help
         """)
         
     def get_random_links(self):
