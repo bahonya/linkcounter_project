@@ -2,6 +2,7 @@ Task for RPA position in EPAM
 
 1)clone repository
 2)pip3 install -e .
+3)linkcounter --help or linkcounter_gui
 
 Create an application to count the number of links in the page. Use a wiki random page https://en.wikipedia.org/wiki/Special:Random. This application has to:
 	1. get a list of all links (a href) in the random page.

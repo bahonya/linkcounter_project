@@ -10,6 +10,7 @@ setup(
         'tk==0.1.0'
     ],
     entry_points={
-        'console_scripts': ['linkcounter=linkcounter_project.linkcounter:main'],
+        'console_scripts': ['linkcounter=linkcounter_project.linkcounter:main',
+                            'linkcounter_gui=linkcounter_project.gui:main'],
     },
 )

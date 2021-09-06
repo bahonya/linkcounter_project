@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import tix
 from tkinter.messagebox import showinfo
-from linkcounter import Linkcounter
+from linkcounter_project.linkcounter import Linkcounter
 
 
 class MainFrame(ttk.Frame):
@@ -82,7 +82,7 @@ class App(tk.Tk):
         self.title('Linkcounter')
         self.geometry('600x600')
 
-
-app = App()
-frame = MainFrame(app)
-app.mainloop()
+def main():
+    app = App()
+    frame = MainFrame(app)
+    app.mainloop()
